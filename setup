@@ -1,0 +1,7 @@
+#!/data/data/com.termux/files/usr/bin/bash
+chmod +x EasY_HaCk.sh
+ln -s $HOME/EasY_HaCk/EasY_HaCk.sh $PREFIX/bin/EasY_HaCk
+pkg install update && upgrade
+apt install figlet -y
+apt instal curl -y
+mkdir payload
